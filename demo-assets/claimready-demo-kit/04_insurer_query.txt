@@ -1,0 +1,11 @@
+FICTIONAL DEMO INSURER QUERY - NOT A REAL REQUEST
+
+To: CityCare Demo Hospital Claims Team
+Claim reference: CR-DEMO-2026-001
+Patient ID: P-3001
+Received: 19/10/2026
+Response due: 26/10/2026
+
+Please confirm the admission and discharge dates for this claim and provide the itemized hospital bill.
+
+This fictional request is for a software demonstration only.

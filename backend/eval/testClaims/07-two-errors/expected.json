@@ -1,0 +1,6 @@
+{
+  "expected": [
+    "AMOUNT_MISMATCH",
+    "PATIENT_MISMATCH"
+  ]
+}

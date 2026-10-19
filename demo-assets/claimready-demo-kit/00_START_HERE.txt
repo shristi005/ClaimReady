@@ -1,0 +1,25 @@
+CLAIMREADY - COMPLETE FICTIONAL DEMO KIT
+
+All names, claim details, dates, and amounts in this kit are invented for a demo. Do not use them for a real insurance submission.
+
+THE DEMO PERSON
+Ritu Sharma, patient ID P-3001, has a fictional appendicitis admission at CityCare Demo Hospital from 12 March 2026 to 15 March 2026. Claim reference: CR-DEMO-2026-001. Insurer: Niva Bupa.
+
+FILES
+01_claim_form.pdf - claim and patient details; claimed amount INR 45,000.
+02_hospital_bill.pdf - itemized bill totaling INR 45,000.
+03_discharge_summary.pdf - diagnosis and matching admission/discharge dates.
+04_insurer_query.txt - text to enter in Query Desk; due 26 October 2026.
+05_remittance_advice.pdf - approved and paid INR 40,000, with a stated INR 5,000 deduction.
+
+DEMO FLOW
+1. Claim Check: choose New claim check. Enter claim reference CR-DEMO-2026-001 and insurer Niva Bupa. Upload files 01, 02, and 03 in their matching slots and analyze. Explain that the checker compares extracted details and a staff member reviews results.
+2. Query Desk: create a query for that claim. Use the request in 04_insurer_query.txt and set due date 26/10/2026. Open the query and click Find evidence & draft. Show the source file references and edit/review the reply. Do not claim it sends the reply; mark Responded only after explaining that a staff member sends it outside the app.
+3. Payment Tracking: open the same claim and upload 05_remittance_advice.pdf in AI-assisted remittance reader. Click Suggest payment details. The configured model should return the claim, approved, and paid amounts as structured fields with source quotes; the matching settlement fields fill in automatically. Review the quotes, then click Save settlement.
+4. Explain the difference: INR 45,000 claimed minus INR 40,000 received leaves INR 5,000. In Recorded deductions & adjustments, enter a INR 5,000 deduction with reason non-payable consumables. The remaining balance should become zero. Staff must verify the deduction against the insurer notice.
+5. Claim documents: show the three uploaded documents as present and download them together if time allows. This gathers files; it does not submit the claim.
+
+AI EXPLANATION FOR JUDGES
+Ollama runs the configured open-weight model locally by default. In Claim Check, it helps extract required fields or bill items when ordinary matching misses them. In Payment Tracking, it reads the remittance advice and returns structured JSON suggestions with source quotes. Code verifies quotes and calculates balances. Query Desk uses evidence matching and a response template, not model-generated writing. Staff review and submit everything. If Groq is selected instead, it is a hosted provider and the relevant document text leaves the local computer.
+
+If the model cannot read the payment file, check that Ollama is running and the model in backend/.env is downloaded. Use a text-based PDF; scanned PDF pages may need to be converted to PNG/JPG for OCR.

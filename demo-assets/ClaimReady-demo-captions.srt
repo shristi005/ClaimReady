@@ -1,0 +1,52 @@
+1
+00:00:20,000 --> 00:00:31,000
+Meet Rachael, a front desk staff member helping Ritu with a hospital insurance claim.
+
+2
+00:00:31,000 --> 00:00:43,000
+ClaimReady keeps the claim documents and follow-up work together in one place.
+
+3
+00:00:44,000 --> 00:00:57,000
+Rachael starts a claim check by entering the claim details and adding the available files.
+
+4
+00:00:57,000 --> 00:01:13,000
+The app reads the documents and checks for missing information or details that may need review.
+
+5
+00:01:13,000 --> 00:01:30,000
+These are review prompts for staff. Rachael checks the source documents before taking action.
+
+6
+00:01:50,000 --> 00:02:00,000
+The insurer asks for more information, so Rachael records the request and its due date in Query Desk.
+
+7
+00:02:00,000 --> 00:02:14,000
+Query Desk finds relevant details in the claim files and prepares a response draft with file references.
+
+8
+00:02:14,000 --> 00:02:31,000
+Rachael reviews the draft, edits it if needed, then marks the query responded after sending it.
+
+9
+00:02:56,000 --> 00:03:10,000
+Later, the insurer sends a remittance advice showing how the claim was settled.
+
+10
+00:03:10,000 --> 00:03:25,000
+Rachael uploads the advice. ClaimReady uses the configured local AI model to suggest the settlement amounts.
+
+11
+00:03:25,000 --> 00:03:40,000
+The staff member should check the suggested amounts against the insurer advice before saving.
+
+12
+00:03:40,000 --> 00:03:55,000
+The claim was ₹45,000, but ₹40,000 was received. The ₹5,000 difference still needs explanation.
+
+13
+00:03:55,000 --> 00:04:02,000
+Next, staff should confirm the reason before recording any deduction.
+

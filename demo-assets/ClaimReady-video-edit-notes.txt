@@ -1,0 +1,21 @@
+CLAIMREADY DEMO VIDEO: CAPTION AND EDIT NOTES
+
+Subtitle file: ClaimReady-demo-captions.srt
+
+The captions are timed to the original 4:02 recording. They avoid covering private account setup and describe only actions/results visible in the recording.
+
+Suggested clean edit
+1. Remove 00:00-00:20, which shows workspace/account setup and personal account details.
+2. Keep the dashboard and claim check section. If the file picker takes a while, speed up or shorten those pauses, but retain enough screen time to show the uploaded documents and resulting review.
+3. Keep the Query Desk section where the request is recorded, evidence is displayed, and the response is marked responded.
+4. Keep the payment section through the settlement result. The captured result is ₹45,000 claimed, ₹40,000 received, and ₹5,000 outstanding/unexplained.
+5. Remove the final section where a PDF is opened outside ClaimReady, unless it is needed to show the source remittance advice.
+
+The SRT times match the uncut source. If removing the first 20 seconds, subtract 20 seconds from every subtitle timestamp after the cut. If making other cuts, adjust the subtitle timing in a video editor after the edit.
+
+Optional pickup shots to strengthen the ending
+- Show the payment record and explain that the ₹5,000 difference remains outstanding until the insurer's reason is confirmed.
+- If the app has a confirmed deduction/adjustment flow available, record that flow and show the updated balance. Do not claim the balance was resolved in this recording; it remains ₹5,000 here.
+- End on a brief title card: “ClaimReady — check the claim, answer insurer queries, and track every rupee.”
+
+To use the subtitles, import ClaimReady-demo-captions.srt into a video editor such as Clipchamp or CapCut, then export the finished MP4. The captions can also be edited there to match any cuts. This subtitle file does not alter the original MP4 by itself.

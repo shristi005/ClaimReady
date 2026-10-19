@@ -165,4 +165,5 @@ claimready/
 - Local AI keeps processing on the configured machine. An optional cloud AI provider sends the relevant text to that provider; configure and disclose this choice appropriately.
 
 #   C l a i m R e a d y  
+ #   C l a i m R e a d y  
  
